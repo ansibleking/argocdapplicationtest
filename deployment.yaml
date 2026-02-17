@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: hello
-        image: nginx
+        image: quay.io/fedora/nginx-122-micro
         ports:
         - containerPort: 8080
