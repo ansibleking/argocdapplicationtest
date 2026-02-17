@@ -14,7 +14,7 @@ spec:
         app: hello
     spec:
       containers:
-      - name: hello
+      - name: mynginx
         image: quay.io/nginx/nginx-unprivileged
         ports:
         - containerPort: 8080
